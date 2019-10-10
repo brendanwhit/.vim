@@ -10,3 +10,6 @@
 [submodule "pack/brendanwhit/start/vim-fugitive"]
 	path = pack/brendanwhit/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/brendanwhit/start/vim-tmux-navigator"]
+	path = pack/brendanwhit/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
