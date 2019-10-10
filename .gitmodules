@@ -1,12 +1,12 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = pack/brendanwhit/start/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
-[submodule "bundle/vim-fugitive"]
-	path = pack/brendanwhit/start
-	url = https://github.com/tpope/vim-fugitive
 [submodule "bundle/vim-sensible"]
 	path = pack/brendanwhit/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible
 [submodule "bundle/vim-surround"]
 	path = pack/brendanwhit/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "pack/brendanwhit/start/vim-fugitive"]
+	path = pack/brendanwhit/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
