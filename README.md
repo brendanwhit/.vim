@@ -24,22 +24,31 @@ options:
 backups.
 
 ## Dependencies
-I use pathogen as my package manager for vim modules
-https://github.com/tpope/vim-pathogen
+I use Vim's native package loader for plugins. All plugins are located in
+`pack/brendanwhit/start/`
 
-Current list of plugins I am using
-- https://github.com/dense-analysis/ale
-- https://github.com/tpope/vim-sensible
-- https://github.com/tpope/vim-fugitive
-- https://github.com/tpope/vim-surround
-- https://github.com/altercation/vim-colors-solarized
-- https://github.com/christoomey/vim-tmux-navigator
+To manage plugins, and update them accordingly, I use git submodules. To add a
+new plugin using git submodules simply run
 
-* For a full current list of plugins used see .gitmodules
+```
+git submodule add [plugin url] pack/brendanwhit/start/pluginname
+```
+
+To update plugins
+```
+git submodule update --remote --merge
+```
+
+To remove plugins
+```
+git submodule deinit pack/brendanwhit/start/pluginname
+git rm pack/brendanwhit/start/pluginname
+rm -Rf .git/modules/vim-setup/pack/brendanwhit/start/pluginname
+```
 
 ## Other Setup
-For the best use of ale as a Language Server Protocol, you need to install the
-following language dependencies
+Next steps include setting up a Language Server Protocol, with the Palantir
+language server
 
 ### Python
 Use the Palantir LSP for python
