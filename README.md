@@ -10,7 +10,9 @@ git clone git@github.com:brendanwhit/vim-setup.git
 ```
 
 Then create a symlink from `$HOME/.vim` to this repo
+
 ```ln -sf ~/vim-setup ~/.vim```
+
 - `-s` option makes it a symbolic link
 - `-f` option will write over current `~/.vim` setup (only use if you are sure
 you want to delete your current vim setup)
