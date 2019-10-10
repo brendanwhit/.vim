@@ -4,8 +4,10 @@ My vim setup
 ## Installing (lol)
 
 First clone this repo to your home directory
-```cd &&
-git clone git@github.com:brendanwhit/vim-setup.git```
+```
+cd &&
+git clone git@github.com:brendanwhit/vim-setup.git
+```
 
 Then create a symlink from `$HOME/.vim` to this repo
 ```ln -sf ~/vim-setup ~/.vim```
