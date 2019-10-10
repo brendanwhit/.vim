@@ -1,4 +1,4 @@
-# .vim
+# vim-setup
 My vim setup
 
 ## Dependencies

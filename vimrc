@@ -50,3 +50,6 @@ set textwidth=79
 set backspace=indent,eol,start
 " use a color column for the 80th column
 set colorcolumn=80
+
+" setup for ale
+let g:ale_lint_on_text_changed = 'never'
