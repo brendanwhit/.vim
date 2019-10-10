@@ -1,7 +1,4 @@
 " Brendan's work vimrc 05.07.19
-
-" Use the pathogen plugin manager
-execute pathogen#infect()
 if has('gui_running')
   set background=light
 else
