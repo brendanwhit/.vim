@@ -12,7 +12,8 @@ filetype plugin indent on
 let mapleader=' '
 
 " insert mode mappings
-inoremap jk <esc>
+" inoremap jk <esc>
+" use <C-[> to escape to insert mode
 
 " normal mode mappings
 " write and quit remaps
