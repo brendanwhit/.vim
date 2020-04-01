@@ -49,5 +49,8 @@ set backspace=indent,eol,start
 " use a color column for the 80th column
 set colorcolumn=80
 
+" don't insert newlines at textwidth
+set formatoptions-=t
+
 " setup for ale
 let g:ale_lint_on_text_changed = 'never'
