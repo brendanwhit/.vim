@@ -13,3 +13,6 @@
 [submodule "pack/brendanwhit/start/eunuch"]
 	path = pack/brendanwhit/start/eunuch
 	url = https://github.com/tpope/vim-eunuch
+[submodule "pack/brendanwhit/start/vim-sensible"]
+	path = pack/brendanwhit/start/vim-sensible
+	url = git@github.com:brendanwhit/vim-sensible.git
