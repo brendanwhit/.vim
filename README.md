@@ -43,7 +43,7 @@ To remove plugins
 ```
 git submodule deinit pack/brendanwhit/start/pluginname
 git rm pack/brendanwhit/start/pluginname
-rm -Rf .git/modules/vim-setup/pack/brendanwhit/start/pluginname
+rm -Rf .git/modules/pack/brendanwhit/start/pluginname
 ```
 
 ## Other Setup
