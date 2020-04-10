@@ -13,3 +13,6 @@
 [submodule "pack/brendanwhit/start/vim-tmux-navigator"]
 	path = pack/brendanwhit/start/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "pack/brendanwhit/start/eunuch"]
+	path = pack/brendanwhit/start/eunuch
+	url = https://tpope.io/vim/eunuch.git
