@@ -3,3 +3,4 @@
 nnoremap <leader>j :%!python -m json.tool<cr>
 " Pasting rules to make CIR generation faster
 nnoremap vp vi""+p
+nnoremap zz yi"/replacevi"p

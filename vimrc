@@ -52,5 +52,5 @@ set colorcolumn=80
 " don't insert newlines at textwidth
 set formatoptions-=t
 
-" setup for ale
-let g:ale_lint_on_text_changed = 'never'
+" better highlighting
+set hlsearch
