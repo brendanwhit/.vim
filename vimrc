@@ -54,3 +54,6 @@ set formatoptions-=t
 
 " better highlighting
 set hlsearch
+
+" add to runtime path to find fzf
+set runtimepath+=~/.fzf
