@@ -57,3 +57,6 @@ set hlsearch
 
 " add to runtime path to find fzf
 set runtimepath+=~/.fzf
+
+" shortcut to FZF Buffers write first so changing file doesn't get sad
+nnoremap <leader>b :w <bar> Buffers<CR>
