@@ -18,7 +18,8 @@ let mapleader=' '
 " normal mode mappings
 " write and quit remaps
 nnoremap <leader>w :w<cr>
-nnoremap <leader>q :wq<cr>
+" nnoremap <leader>q :wq<cr> 
+" start using ZZ like is built in
 nnoremap <leader>x :q!<cr>
 
 " source .vimrc from inside a file
@@ -60,3 +61,6 @@ set runtimepath+=~/.fzf
 
 " shortcut to FZF Buffers write first so changing file doesn't get sad
 nnoremap <leader>b :w <bar> Buffers<CR>
+
+" configuration for the wildmenu
+set wildmode=longest:full
