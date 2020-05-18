@@ -34,6 +34,11 @@ new plugin using git submodules simply run
 git submodule add [plugin url] pack/brendanwhit/start/pluginname
 ```
 
+To install plugins
+```
+git submodule update --init --recursive
+```
+
 To update plugins
 ```
 git submodule update --remote --merge
